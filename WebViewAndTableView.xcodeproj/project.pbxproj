@@ -15,6 +15,7 @@
 		50F8E86D1D2013920024C44E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F8E86B1D2013920024C44E /* LaunchScreen.storyboard */; };
 		50F8E8781D2013920024C44E /* WebViewAndTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F8E8771D2013920024C44E /* WebViewAndTableViewTests.m */; };
 		50F8E8831D2013920024C44E /* WebViewAndTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F8E8821D2013920024C44E /* WebViewAndTableViewUITests.m */; };
+		50F8E8951D201D090024C44E /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 50F8E8941D201D090024C44E /* test.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		50F8E87E1D2013920024C44E /* WebViewAndTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewAndTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F8E8821D2013920024C44E /* WebViewAndTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewAndTableViewUITests.m; sourceTree = "<group>"; };
 		50F8E8841D2013920024C44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F8E8941D201D090024C44E /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		50F8E85C1D2013920024C44E /* WebViewAndTableView */ = {
 			isa = PBXGroup;
 			children = (
+				50F8E8941D201D090024C44E /* test.html */,
 				50F8E8601D2013920024C44E /* AppDelegate.h */,
 				50F8E8611D2013920024C44E /* AppDelegate.m */,
 				50F8E8631D2013920024C44E /* ViewController.h */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F8E8951D201D090024C44E /* test.html in Resources */,
 				50F8E86D1D2013920024C44E /* LaunchScreen.storyboard in Resources */,
 				50F8E86A1D2013920024C44E /* Assets.xcassets in Resources */,
 				50F8E8681D2013920024C44E /* Main.storyboard in Resources */,
